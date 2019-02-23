@@ -4,8 +4,9 @@ import spotipy
 import spotipy.util as util
 from src.repl import run
 
+
 def authenticate(username):
-    # Erase cache and prompt for user permission
+    # Prompt for user permission
     try:
         token = util.prompt_for_user_token(username)
     except:
@@ -20,7 +21,7 @@ def main():
     token = authenticate(username)
     # Create our spotifyObject
     client = spotipy.Spotify(auth=token)
-
+    # run our Read Eval Print Loop
     run(client, username)
 
 if __name__ == '__main__':
