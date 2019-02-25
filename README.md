@@ -1,4 +1,8 @@
-# Spotipy Tutorial
+# conXn's Playlist Curator
+
+## There's not much to see here just yet. I'm still working on v0.0.0
+
+My endgame is to build a webapp that can log a user into their Spotify account, allow them to select a playlist to work with, and 
 
 ## Reqs
 
